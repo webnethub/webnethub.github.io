@@ -13,7 +13,7 @@ imageUpload.addEventListener('change', function(event) {
   }
 });
 
-// Disable right-click on the image
-uploadedImage.addEventListener('contextmenu', function(event) {
+// Disable context menu on long press
+document.addEventListener('contextmenu', function(event) {
   event.preventDefault();
 });
