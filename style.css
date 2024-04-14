@@ -1,5 +1,7 @@
 
 body {
+ -webkit-user-drag: none;
+	user-drag: none;
   -webkit-user-select: none;  /* Disable selection for WebKit browsers */
  -moz-user-select: none;     /* Disable selection for Mozilla browsers */
   -ms-user-select: none;      /* Disable selection for IE/Edge browsers */
@@ -14,6 +16,8 @@ body {
 }
 
 .gallery-container img {
+  -webkit-user-drag: none;
+	user-drag: none;
   width: 400px;
   height: 300px;
   object-fit: cover;
