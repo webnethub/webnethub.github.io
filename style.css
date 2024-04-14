@@ -1,3 +1,10 @@
+body {
+  -webkit-user-select: none; /* Disable selection for Chrome/Safari */
+  -moz-user-select: none; /* Disable selection for Firefox */
+  -ms-user-select: none; /* Disable selection for IE/Edge */
+  user-select: none; /* Standard syntax */
+}
+
 .image-picker {
   display: flex;
   flex-direction: column;
