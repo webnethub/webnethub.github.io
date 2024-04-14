@@ -1,31 +1,25 @@
 body {
-  -webkit-user-select: none; /* Disable selection for Chrome/Safari */
-  -moz-user-select: none; /* Disable selection for Firefox */
-  -ms-user-select: none; /* Disable selection for IE/Edge */
-  user-select: none; /* Standard syntax */
+  -webkit-user-select: none;  /* Disable selection for WebKit browsers */
+  -moz-user-select: none;     /* Disable selection for Mozilla browsers */
+  -ms-user-select: none;      /* Disable selection for IE/Edge browsers */
+  user-select: none;           /* Standard syntax */
 }
 
-.image-picker {
+.gallery-container {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin: 20px;
 }
 
-.image-picker input[type="file"] {
-  display: none;
+.gallery-container img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
 }
 
-.image-picker label {
+#prev-button, #next-button {
   padding: 10px 20px;
-  border: 1px solid #ddd;
+  margin: 10px;
   cursor: pointer;
 }
-
-#uploaded-image {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  margin-top: 10px;
-}
-
