@@ -3,7 +3,7 @@ const prevButton = document.getElementById('prev-button');
 const nextButton = document.getElementById('next-button');
 
 // Replace image paths with your actual image filenames
-const images = ['src/image1.jpg', 'src/image2.jpg', 'src/image3.jpg', /* ... */];
+const images = ['image1.jpg', 'image2.jpg', 'image3.jpg', /* ... */];
 let currentIndex = 0;
 
 // Disable context menu on long press
