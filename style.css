@@ -1,6 +1,7 @@
 
 body {
- -webkit-user-drag: none;
+-webkit-touch-callout: none;
+	-webkit-user-drag: none;
 	user-drag: none;
   -webkit-user-select: none;  /* Disable selection for WebKit browsers */
  -moz-user-select: none;     /* Disable selection for Mozilla browsers */
@@ -9,6 +10,7 @@ body {
 }
 
 .gallery-container {
+	-webkit-touch-callout: none;
 	 -webkit-user-drag: none;
 	user-drag: none;
 	-webkit-user-select: none;
@@ -22,6 +24,7 @@ body {
 }
 
 .gallery-container img {
+	-webkit-touch-callout: none;
   -webkit-user-drag: none;
 	user-drag: none;
 	-webkit-user-select: none;
@@ -35,6 +38,7 @@ body {
 
 img,
 .no-drag {
+	-webkit-touch-callout: none;
 	-webkit-user-drag: none;
 	user-drag: none;
 	-webkit-user-select: none;
