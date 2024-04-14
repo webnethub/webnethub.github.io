@@ -1,10 +1,43 @@
-body {
-  -webkit-user-select: none;  /* Disable selection for WebKit browsers */
-  -moz-user-select: none;     /* Disable selection for Mozilla browsers */
-  -ms-user-select: none;      /* Disable selection for IE/Edge browsers */
-  user-select: none;           /* Standard syntax */
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  user-select: none; /* Disable selection of everything */
 }
 
+.gallery img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.gallery button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#prev-button {
+  left: 10px;
+}
+
+#next-button {
+  right: 10px;
+}
+
+
+/*
+body {
+  -webkit-user-select: none;  /* Disable selection for WebKit browsers */
+/*  -moz-user-select: none;     /* Disable selection for Mozilla browsers */
+/*  -ms-user-select: none;      /* Disable selection for IE/Edge browsers */
+/*  user-select: none;           /* Standard syntax */
+}
+/*
 .gallery-container {
   display: flex;
   justify-content: center;
@@ -23,3 +56,4 @@ body {
   margin: 10px;
   cursor: pointer;
 }
+*/
