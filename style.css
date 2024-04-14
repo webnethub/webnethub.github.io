@@ -33,6 +33,16 @@ body {
   object-fit: cover;
 }
 
+img,
+.no-drag {
+	-webkit-user-drag: none;
+	user-drag: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
 #prev-button, #next-button {
   padding: 10px 20px;
   margin: 10px;
